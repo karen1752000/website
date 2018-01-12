@@ -23,8 +23,6 @@ body {
   
 }
 
-
-
 .portfolio-item {
   
   width:300px;
@@ -97,3 +95,18 @@ h4 {
   color:#555;
   
 }
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+  .portfolio {
+    font-size: 110%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
