@@ -3,6 +3,14 @@ body {
   margin: 0;
   padding: 0;
 }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+
+
 ul {
   display: flex;
   text-align: center;
