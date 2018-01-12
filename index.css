@@ -1,0 +1,87 @@
+@import url('https//fonts.googleapis.com/css?family=Raleway');
+@import url('https//fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%; 
+	width:  100%;
+}
+/*html { 
+  background: url(pexels-photo-772803.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: table;
+  top: 0;
+  background-size: cover;
+
+}*/
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(pexels-photo.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Raleway', san-serif;
+	color: #f9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 300%;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', san-serif;
+	color: #000000;
+	font-size: 135%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: solid #000000 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+	color: #fff;
+	border: solid #fff 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+
+
+
+
